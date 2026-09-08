@@ -14,3 +14,4 @@ Map the `api.mythivara.com` custom domain in Railway, then add `https://api.myth
 TikTok’s current Content Posting API uses an init-and-upload flow and returns `publish_id`; it does not support publishing a previously uploaded inbox draft later by `video_id`. Direct publishing therefore submits the video file and post details together.
 
 The backend keeps TikTok tokens encrypted at rest, uses HTTP-only secure session cookies, validates one-time OAuth state, and never returns access or refresh tokens to the browser.
+.
